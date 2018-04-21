@@ -4,8 +4,6 @@ import pandas as pd
 
 model_data = pd.read_csv("./tetrismodel.csv")
 
-#print(model_data)
-
 count = 83 * 83
 
 fig = plt.figure(figsize=(8, 8))
